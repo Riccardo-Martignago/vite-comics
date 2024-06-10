@@ -1,9 +1,27 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+    import AppHeader from './components/AppHeader.vue';
+    import AppMain from './components/AppMain.vue';
+    import AppFooter from './components/AppFooter.vue';
+
+    export default {
+        components: {
+            AppHeader,
+            AppMain,
+            AppFooter
+        }
+    }
 </script>
 
 <template>
+    <div>
+        <AppHeader />
+        <AppMain />
+        <AppFooter />
+    </div>
 </template>
 
-<style scoped>
+<style lang="scss">
+    @use './styles/general.scss';
+    @use './styles/partials/mixins';
+    @use './styles/partials/variables';
 </style>
