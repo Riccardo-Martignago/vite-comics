@@ -6,6 +6,9 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 
 ||PROCEDURA||
 
-
-
-Locla: http://localhost:5173/
+Inizializzo vite e vue 3
+Creo gli elementi necessari per riprodurre il layout suddividendo in header, main e footer
+Divido in macro elementi le varei sezioni
+Inserisco i vari blocchi in pagina
+Creo un array con le parole da inserire nel menu
+Con un ciclo stampo in pagina i nomi 
