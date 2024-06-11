@@ -21,7 +21,7 @@
 </template>
 
 <style lang="scss">
-    @use './styles/general.scss';
-    @use './styles/partials/mixins';
+    @use './styles/general.scss' as *;
+    @use './styles/partials/mixins' as *;
     @use './styles/partials/variables';
 </style>
